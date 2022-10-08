@@ -1,0 +1,37 @@
+#cigbag{
+    width: 500px;
+  height: 500px;
+  margin: 30px auto;
+  border-radius: 50%;
+  background: black;
+  border: 30px solid maroon;
+}
+
+#cig{
+    width: 20%;
+    height: 50px;
+    background: white;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 38%;
+    left: 610px;
+    margin-top: -15px;
+}
+#cighead{
+  display:inline-block;
+  float:left;
+  background-color:yellow;
+  width:70px;
+  height:50px;
+}
+#cigbag:after {
+    width: 35%;
+    height: 40px;
+    background: maroon;
+    position: absolute;
+    transform: rotate(-45deg);
+    content: "";
+    top: 40%;
+    left: 33%;
+    margin-top: -10px;
+  }
